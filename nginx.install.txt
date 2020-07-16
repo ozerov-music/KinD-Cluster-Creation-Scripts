@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "Installing nginx ..."
+helm install nginx-ingress-controller nginx-stable/nginx-ingress
+
+echo -e "Figure out how to configure this pod and provision ingress for K8s Dashboard ..."

@@ -1,1 +1,0 @@
-helm install nginx-ingress-controller nginx-stable/nginx-ingress
